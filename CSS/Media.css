@@ -1,0 +1,111 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav-ul-a {
+        font-size: 20px;
+    }
+
+    #header-typescript {
+        font-size: 22px;
+    }
+
+    .main-card {
+        width: 70%;
+    }
+
+    .circle-flex div {
+        flex-wrap: nowrap !important;
+        gap: 30px;
+    }
+
+    .owl-stage {
+        width: 100% !important;
+    }
+    .owl-item {
+        width: 45% !important;
+    }
+
+    .footer-content {
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 768px) {
+    .nav-ul {
+        display: none;
+    }
+
+    .container h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .container q {
+        font-size: 18px;
+    }
+    #header-typescript {
+        font-size: 16px;
+    }
+
+    .main-card {
+        width: 60%;
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 50px 20px;
+    }
+
+    .how {
+        background-image: none;
+    }
+    .circle-flex div {
+        gap: 30px;
+    }
+    .how .how-title p {
+        font-size: 32px;
+    }
+
+    .our {
+        width: 100%;
+        padding: 30px 25px;
+    }
+    .our .our-title p {
+        font-size: 32px;
+    }
+    .owl-stage {
+        width: 100% !important;
+    }
+    .owl-item {
+        width: 45% !important;
+    }
+}
+@media (max-width: 480px) {
+    .main-card {
+        width: 80%;
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 50px 20px;
+    }
+
+    .how {
+        background-image: none;
+    }
+    .circle-flex div {
+        gap: 30px;
+    }
+    .how .how-title p {
+        font-size: 20px;
+    }
+    .how-card {
+        width: 100%;
+    }
+
+    .our {
+        width: 100%;
+        padding: 30px 25px;
+    }
+    .our .our-title p {
+        font-size: 20px;
+    }
+    .owl-stage {
+        width: 88% !important;
+    }
+    .owl-item {
+        width: 100% !important;
+    }
+}
