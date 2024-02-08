@@ -19,13 +19,6 @@
         gap: 30px;
     }
 
-    .owl-stage {
-        width: 100% !important;
-    }
-    .owl-item {
-        width: 45% !important;
-    }
-
     .footer-content {
         justify-content: flex-start;
     }
@@ -73,12 +66,6 @@
     .our .our-title p {
         font-size: 32px;
     }
-    .owl-stage {
-        width: 100% !important;
-    }
-    .owl-item {
-        width: 45% !important;
-    }
 }
 @media (max-width: 480px) {
     .main-card {
@@ -108,10 +95,10 @@
     .our .our-title p {
         font-size: 20px;
     }
-    .owl-stage {
-        width: 88% !important;
-    }
-    .owl-item {
-        width: 100% !important;
+}
+/* ------------------------------- */
+@media (min-width: 769px) and (max-width: 832px) {
+    .nav-ul-a {
+        font-size: 15px;
     }
 }

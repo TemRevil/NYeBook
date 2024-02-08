@@ -66,5 +66,24 @@ displayAndDeleteSentences(bookSentences);
 // -------------------------------------------------
 // OWL owlCarousel
 $(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
+  $(".owl-carousel").owlCarousel({
+    items : 3,
+    margin : 15,
+    dots: true,
+    nav: false,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    responsive : {
+      320 : {
+          items : 1
+      },
+      550 : {
+          items : 2
+      },
+      1024 : {
+          items : 3
+      }
+    }
+  });
 });
