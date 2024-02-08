@@ -10,6 +10,9 @@
     .main-card {
         width: 70%;
     }
+    .main-card img {
+        width: 75%;
+    }
 
     .circle-flex div {
         flex-wrap: nowrap !important;
@@ -48,6 +51,9 @@
         flex-direction: column-reverse;
         gap: 20px;
         padding: 50px 20px;
+    }
+    .main-card img {
+        width: 100%;
     }
 
     .how {

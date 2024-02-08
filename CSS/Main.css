@@ -391,6 +391,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 8px;
   box-shadow: 0 7px 25px #1234564b;
 }
+.main-card img {
+  width: 60%;
+}
 .m-card-col {
   display: flex;
   flex-direction: column;
@@ -516,7 +519,7 @@ body::-webkit-scrollbar-thumb {
     0 24px 46px var(--box-shadow-color);
 }
 .how-card:hover .overlay {
-  transform: scale(4) translateZ(0);
+  transform: scale(6) translateZ(0);
   height: 118px;
 }
 .how-card:hover .circle {
@@ -537,8 +540,8 @@ body::-webkit-scrollbar-thumb {
   transition: color 0.3s ease-out;
 }
 .circle {
-  width: 131px;
-  height: 131px;
+  width: 135px;
+  height: 135px;
   border-radius: 50%;
   background: #fff;
   border: 2px solid var(--bg-color);
@@ -566,13 +569,13 @@ body::-webkit-scrollbar-thumb {
   transform: translateZ(0);
 }
 .overlay {
-  width: 118px;
+  width: 135px;
   position: absolute;
-  height: 100px;
+  height: 137px;
   border-radius: 50%;
   background: var(--bg-color);
-  top: 70px;
-  left: 50px;
+  top: 25px;
+  left: 20px;
   z-index: 0;
   transition: transform 0.3s ease-out;
 }
