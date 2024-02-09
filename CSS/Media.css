@@ -97,7 +97,7 @@
     }
 }
 /* ------------------------------- */
-@media (min-width: 769px) and (max-width: 832px) {
+@media (min-width: 769px) and (max-width: 880px) {
     .nav-ul-a {
         font-size: 15px;
     }
