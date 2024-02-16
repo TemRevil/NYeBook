@@ -236,6 +236,16 @@ body::-webkit-scrollbar-thumb {
   direction: ltr;
   margin-top: 150px;
 }
+#Login::-webkit-scrollbar {
+  width: 6px;
+}
+#Login::-webkit-scrollbar-track {
+  background: #EDF2F7;
+}
+#Login::-webkit-scrollbar-thumb {
+  background-color: #3EB489;
+  border-radius: 20px;
+}
 .log-form {
   display: flex;
   flex-direction: column;
@@ -627,7 +637,7 @@ body::-webkit-scrollbar-thumb {
   left: 0;
   right: 0;
   transform-origin: center;
-  trsnsform: scale(1) translateZ(0);
+  transform: scale(1) translateZ(0);
   transition: 
     filter 200ms linear,
     transform 200ms linear;
@@ -694,4 +704,10 @@ footer ul {
 }
 footer ul li {
   margin-bottom: 10px;
+}
+footer p a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
 }

@@ -1,6 +1,22 @@
 // Loading Loader
-window.addEventListener('load', function() {
-  document.querySelector('.loading-back').style.display = 'none';
+document.addEventListener("DOMContentLoaded", function () {
+  var loadingElement = document.querySelector('.loading-back');
+  var body = document.querySelector('body');
+  function showOverflow() {
+      body.style.overflow = 'auto';
+  }
+  function hideLoading() {
+      loadingElement.style.display = 'none';
+      showOverflow();
+  }
+  if (body.getAttribute('data-loaded') === 'true') {
+      hideLoading();
+  } else {
+      window.addEventListener('load', function () {
+          hideLoading();
+          body.setAttribute('data-loaded', 'true');
+      });
+  }
 });
 // -------------------------------------------------
 // Nav offsetHeight
@@ -67,7 +83,6 @@ displayAndDeleteSentences(bookSentences);
 // OWL owlCarousel
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-    items : 3,
     margin : 15,
     dots: true,
     nav: false,
@@ -82,7 +97,7 @@ $(document).ready(function(){
           items : 2
       },
       1024 : {
-          items : 3
+          items : 4
       }
     }
   });
