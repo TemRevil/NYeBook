@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Revil's NYe-Book Design Vol.5">
+  <meta name="keywords" content="TemRevil, Tem Revil, Library, Books, NY, New York, New York Library, Arabic Library, Arabic Box">
+  <meta name="author" content="Tem Revil">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#EDF2F7">
+  <meta name="referrer" content="no-referrer">
+
+  <link rel="icon" href="Background/icon.png" type="image/gif">
+    <title>New York eBook</title>
+
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css.map">
+    <link rel="stylesheet" href="CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS/owl.theme.default.min.css">
+    <link rel="stylesheet" href="CSS/Main.css">
+    <link rel="stylesheet" href="CSS/Media.css">
+</head>
+<body>
+  <div class="loading-back">
+    <div class="loader"></div>
+  </div>
+  <div class="modal fade" id="Login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">تسجيل الدخول</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="log-form">
+            <div class="flex-column">
+              <label>البريد الكتروني</label>
+            </div>
+            <div class="inputForm">
+              <i class="fa-solid fa-at"></i>
+              <input type="text" class="input" placeholder="Enter your Email">
+            </div>
+            <div class="flex-column">
+              <label>كلمة المرور</label>
+            </div>
+            <div class="inputForm">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" class="input" placeholder="Enter your Password">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+            <div class="flex-row">
+              <div>
+                <input type="checkbox">
+                <label>تذكرني</label>
+              </div>
+              <span class="span">نسيت كلمه المرور</span>
+            </div>
+            <button class="button-submit">تسجيل دخول</button>
+            <p class="p">ليس لديك حساب؟ <span class="span">سجل الان</span>
+            </p><p class="p line">أو إدخل بواسطة</p>
+            <div class="flex-row">
+                <button class="log-btn google"><i class="fa-brands fa-google"></i>Google </button>
+                <button class="log-btn apple"><i class="fa-brands fa-apple"></i>Apple</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="nav-div-1">
+      <div class="logo"><img src="Background/logo-light.png" alt="logo"></div>
+      <ul class="nav-ul">
+        <li><a class="nav-ul-a" href="# current">الرئيسيه</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-ul-a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            انواع الكتب
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">روايات</a></li>
+            <li><a class="dropdown-item" href="#">قصص قصيرة</a></li>
+            <li><a class="dropdown-item" href="#">كتب تعليمية</a></li>
+            <li><a class="dropdown-item" href="#">كتب علمية</a></li>
+            <li><a class="dropdown-item" href="#">كتب تاريخية</a></li>
+            <li><a class="dropdown-item" href="#">كتب سير ذاتية</a></li>
+            <li><a class="dropdown-item" href="#">كتب دينية</a></li>
+            <li><a class="dropdown-item" href="#">كتب فلسفية</a></li>
+            <li><a class="dropdown-item" href="#">كتب أدبية</a></li>
+            <li><a class="dropdown-item" href="#">كتب تطوير الذات</a></li>
+          </ul>
+        </li>        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-ul-a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            عن الموقع
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">من نحن</a></li>
+            <li><a class="dropdown-item" href="#">رؤيتنا ورسالتنا</a></li>
+            <li><a class="dropdown-item" href="#">فريق العمل</a></li>
+            <li><a class="dropdown-item" href="#">اتصل بنا</a></li>
+          </ul>
+        </li>        
+        <li><a class="nav-ul-a" href="#">سله المشتريات <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a></li>
+      </ul>
+    </div>
+    <div>
+      <button class="nav-log-btn" data-bs-toggle="modal" data-bs-target="#Login"><span>تسجيل الدخول</span></button>
+    </div>
+  </nav>
+  <header class="header">
+      <div class="container">
+        <h1>مرحباً بكم في المكتبة الرقمية</h1>
+        <q>بالطبيعة، هوساً على الحافة توجد اللحظة التي نعرف فيها بالضبط ما الذي نشعر به، ونتلذذ بقوة الأفكار التي تهز أركان عقلنا.</q>
+      </div>
+      <p id="header-typescript"></p>
+  </header>
+  <section class="main-content">
+    <div class="main-card">
+      <div class="m-card-col">
+        <p class="m-card-title">مرحباً بكم في المكتبة الرقمية</p>
+        <button class="m-card-btn">
+          <span class="icon"><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></span>
+          <span class="text">شاهد المزيد</span>
+      </button>
+      </div>
+      <img src="Background/logo.png" alt="Logo">
+    </div>
+    <div class="how">
+      <div class="how-title"><img src="Background/decore-r.png" alt="logo"><p>إليك بعض النصائح؟</p></div>
+      <div class="circle-flex">
+        <div style="width: 70%;display: flex;justify-content: space-evenly;flex-wrap: wrap;">
+          <div class="how-card univ">
+            <div class="overlay"></div>
+            <div class="circle">
+              <img src="Background/card-3.png" alt="Card-1">
+            </div>
+            <p>سجل ما تقراءه في ملاحظات إن لم تكن تفهمه</p>
+          </div>
+          <div class="how-card cop">
+            <div class="overlay"></div>
+            <div class="circle">
+              <img src="Background/card-2.png" alt="Card-1">
+            </div>
+            <p>سيزيد تركيزك وسعادتك عند القراءة</p>
+          </div>
+          <div class="how-card wallet">
+            <div class="overlay"></div>
+            <div class="circle">
+              <img src="Background/card-1.png" alt="Card-1">
+            </div>
+            <p>إقرء قدر ما تريد لكن إفهم</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our">
+      <div class="our-title"><img src="Background/decore-r.png" alt="logo"><p>انواع الكتب</p></div>
+      <p>يمكنكم الاطلاع علي انواع الكتب التي قد تعجبكم!</p>      
+      <div class="owl-carousel owl-theme owl-loaded" style="direction: ltr;">
+        <div class="owl-stage-outer">
+            <div class="owl-stage">
+              <div class="owl-item">
+                <a class="our-card" href="#">
+                  <div class="card-background" style="background-image: url(Background/Books/Novels.png)"></div>
+                  <div class="card-content">
+                    <p class="card-header">الروايات</p>
+                    <h3 class="card-heading">استمتع بمغامرات شيقة في عوالم الخيال والتشويق</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="owl-item">
+                <a class="our-card" href="#">
+                  <div class="card-background" style="background-image: url(Background/Books/Education.png)"></div>
+                  <div class="card-content">
+                    <p class="card-header">التعليم والمعرفة</p>
+                    <h3 class="card-heading">اكتسب المعرفة والمهارات الجديدة من خلال كتب تعليمية متنوعة</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="owl-item">
+                <a class="our-card" href="#">
+                  <div class="card-background" style="background-image: url(Background/Books/History.png)"></div>
+                  <div class="card-content">
+                    <p class="card-header">التاريخ والسير الذاتية</p>
+                    <h3 class="card-heading">استكشف أحداث الماضي وتعرف على قصص الشخصيات البارزة</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="owl-item">
+                <a class="our-card" href="#">
+                  <div class="card-background" style="background-image: url(Background/Books/Tech.png)"></div>
+                  <div class="card-content">
+                    <p class="card-header">العلوم والتكنولوجيا</p>
+                    <h3 class="card-heading">اكتشف أحدث الاكتشافات العلمية والتطورات التكنولوجية</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="owl-item">
+                <a class="our-card" href="#">
+                  <div class="card-background" style="background-image: url(Background/Books/Poetry.png)"></div>
+                  <div class="card-content">
+                    <p class="card-header">الشعر والأدب الشعبي</p>
+                    <h3 class="card-heading">استمتع بجمال الكلمات والمعاني في مجموعة من القصائد والشعر الشعبي</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="owl-item">
+                <a class="our-card" href="#">
+                  <div class="card-background" style="background-image: url(Background/Books/Famous.png)"></div>
+                  <div class="card-content">
+                    <p class="card-header">سير الشخصيات والتراجم</p>
+                    <h3 class="card-heading">استكشف حياة الشخصيات المشهورة وتعرف على قصصهم وتجاربهم الشخصية</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="owl-item">
+                <a class="our-card" href="#">
+                  <div class="card-background" style="background-image: url(Background/Books/Self-Help.png)"></div>
+                  <div class="card-content">
+                    <p class="card-header">التطوير الشخصي</p>
+                    <h3 class="card-heading">اكتشف أساليب جديدة لتحسين نفسك وتطوير مهاراتك الشخصية والمهنية</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="owl-item">
+                <a class="our-card" href="#">
+                  <div class="card-background" style="background-image: url(Background/Books/Fantasy.png)"></div>
+                  <div class="card-content">
+                    <p class="card-header">الخيال والفانتازيا</p>
+                    <h3 class="card-heading">انطلق في رحلة سحرية إلى عوالم الخيال والأساطير والمغامرات الخيالية</h3>
+                  </div>
+                </a>
+              </div>              
+            </div>
+        </div>
+        <div class="owl-nav disabled">
+            <div class="owl-prev">prev</div>
+            <div class="owl-next">next</div>
+        </div>
+        <div class="owl-dots disabled">
+            <div class="owl-dot active"><span></span></div>
+            <div class="owl-dot"><span></span></div>
+            <div class="owl-dot"><span></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <img src="Background/logo-light.png" alt="Logo">
+    <hr>
+    <div class="footer-content">
+      <div>
+        <p class="footer-title">عن المكتبة</p>
+        <p class="footer-text">
+            المكتبة الإلكترونية هي منصة رقمية توفر الوصول السهل والمرن إلى<br>
+            مجموعة متنوعة من الكتب والمواد القرائية عبر الإنترنت،<br>
+            مما يسهم في تعزيز الثقافة والمعرفة بطريقة مبتكرة وحديثة.
+        </p>        
+      </div>
+      <div>
+        <iframe width="100%" height="220" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=220&amp;hl=en&amp;q=New%20York&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      </div>
+      <div>
+        <p class="footer-title">تواصل معنا</p>
+        <ul>
+            <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> نيويورك - شارع الخامس، مانهاتن</li>
+            <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i> هاتف : +1 123 456 7890</li>
+            <li><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> info@yourlibrary.com</li>
+        </ul>
+      </div>     
+      <hr>
+      <p>جميع الحقوق محفوظة 2024 <a href="https://github.com/temrevil">© TemRevil</a></p>
+    </div>
+  </footer>
+  <script src="JavaScript/all.js"></script>
+  <script src="JavaScript/jquery-3.7.1.min.js"></script>
+  <script src="JavaScript/owl.carousel.min.js"></script>
+  <script src="JavaScript/bootstrap.bundle.min.js"></script>
+  <script src="JavaScript/Main.js"></script>
+</body>
+</html>
